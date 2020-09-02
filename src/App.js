@@ -6,7 +6,10 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 
-import { allReducers } from './Reducers/index'
+import { allReducers } from './Reducers/index';
+import { Container, Row } from 'react-bootstrap';
+
+import Navbar from './Containers/Nav'
 
 
 const store = createStore(allReducers, compose(
@@ -18,7 +21,9 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
-
+        <Container fluid className='mh-100'>
+          <Navbar />
+        </Container>
       </Router>
     </Provider>
   );
