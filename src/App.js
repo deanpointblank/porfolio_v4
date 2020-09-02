@@ -8,10 +8,10 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
 
-// const store = createStore(allReducers, compose(
-//   spplyMiddleware(thunk),
-//   window.devTool
-// ))
+const store = createStore(allReducers, compose(
+  spplyMiddleware(thunk),
+  windoww.devToolExtension ? window.devToolExtension() : f => f
+))
 
 function App() {
   return (
