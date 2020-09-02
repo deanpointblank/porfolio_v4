@@ -4,6 +4,7 @@ import './App.css';
 
 import ReactDom from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Provider } from 'react-redux';
 
 function App() {
   return (
