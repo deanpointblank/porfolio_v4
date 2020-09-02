@@ -9,12 +9,12 @@ import thunk from 'redux-thunk';
 import { allReducers } from './Reducers/index';
 import { Container, Row } from 'react-bootstrap';
 
-import Navbar from './Containers/Nav'
+import Menu from './Containers/Nav'
 
 
 const store = createStore(allReducers, compose(
-  spplyMiddleware(thunk),
-  windoww.devToolExtension ? window.devToolExtension() : f => f
+  applyMiddleware(thunk),
+  window.devToolExtension ? window.devToolExtension() : f => f
 ))
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
     <Provider store={store}>
       <Router>
         <Container fluid className='mh-100'>
-          <Navbar />
+          <Menu />
         </Container>
       </Router>
     </Provider>

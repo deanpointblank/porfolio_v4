@@ -1,12 +1,6 @@
-const falseReducer = (state = {key: 'value'}, action) =>{
-    switch(action.type){
-        case 'TEST_STATE':
-            return {
-                ...state,
-            }
-        default:
+const falseReducer = (state = {
+    }, action) => {
             return state;
     }
-}
 
-export default falseReducer
+export default falseReducer;

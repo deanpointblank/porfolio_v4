@@ -1,21 +1,27 @@
 import React, { Component } from 'react';
-import { Row, Nav, Navbar } from 'react-bootstrap';
+import { Row, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 
-export default class Navbar extends Component {
+export default class Menu extends Component {
 
     render(){
         return(
             <Row>
-                <Navbar bg="light" expand="lg" defaultActiveKey="/">
-                    <Navbar.Brand href="#"><span className="underlined">Dean Betty</span></Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mr-auto">
-                            <Nav.Link href="#">Projects</Nav.Link>
-                            <Nav.Link href="#">Blog</Nav.Link>
-                            <Nav.Link href="#">Contact</Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
+                <Navbar bg="light" expand="lg">
+                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="mr-auto">
+                    <Nav.Link href="#home">Home</Nav.Link>
+                    <Nav.Link href="#link">Link</Nav.Link>
+                    <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                    </NavDropdown>
+                    </Nav>
+                </Navbar.Collapse>
                 </Navbar>
             </Row>
         )
