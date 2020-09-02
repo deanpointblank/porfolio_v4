@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import ReactDom from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -21,9 +22,7 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
-        <Container fluid className='mh-100'>
           <Menu />
-        </Container>
       </Router>
     </Provider>
   );
