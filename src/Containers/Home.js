@@ -1,11 +1,24 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Row, Col } from 'react-bootstrap';
 
 class Home extends Component{
     render(){
         return(
             <>
-                <p>This is a Home Container</p>
+                <Row>
+                    <Col>
+                        <p>Big Picture and blurb here</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <p>Most Recent Project</p>
+                    </Col>
+                    <Col>
+                        <p>Most Recent Blog</p>
+                    </Col>
+                </Row>
             </>
         )
     }

@@ -12,6 +12,7 @@ import { Container, Row } from 'react-bootstrap';
 
 import Menu from './Containers/Nav'
 import Home from './Containers/Home'
+import About from './Containers/About'
 
 
 const store = createStore(allReducers, compose(
@@ -26,8 +27,8 @@ function App() {
           <Menu />
           <Switch>
             <Route exact path='/' component={Home} />
+            <Route exact path='/about' component={About} />
             {/* <Route exact path='/' component={} />
-            <Route exact path='/' component={} />
             <Route exact path='/' component={} />
             <Route exact path='/' component={} />
             <Route exact path='/' component={} />
