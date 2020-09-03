@@ -23,6 +23,15 @@ function App() {
     <Provider store={store}>
       <Router>
           <Menu />
+          <Switch>
+            <Route exact path='/' component={} />
+            {/* <Route exact path='/' component={} />
+            <Route exact path='/' component={} />
+            <Route exact path='/' component={} />
+            <Route exact path='/' component={} />
+            <Route exact path='/' component={} />
+            <Route component={NotFound} /> */}
+          </Switch>
       </Router>
     </Provider>
   );
