@@ -13,8 +13,8 @@ class Home extends Component{
 
 const mapStateToProps = state => {
     return {
-        falseState: 'falsestate'
+        falseState: 'state.falsestate'
     }
 }
 
-export default connect(mapStateToProps)
+export default connect(mapStateToProps)(Home);
