@@ -9,6 +9,7 @@ class Home extends Component{
                 <Row>
                     <Col>
                         <p>Big Picture and blurb here</p>
+                        <p>Hi I'm Dean I'm a FullStack Engineer experienced in Ruby on Rails and JavaScript based programming with a background in React and Sinatra.</p>
                     </Col>
                 </Row>
                 <Row>

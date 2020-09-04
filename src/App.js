@@ -13,6 +13,8 @@ import { Container, Row } from 'react-bootstrap';
 import Menu from './Containers/Nav'
 import Home from './Containers/Home'
 import About from './Containers/About'
+import Portfolio from './Containers/Portfolio'
+import Blog from './Containers/Blog'
 
 
 const store = createStore(allReducers, compose(
@@ -28,9 +30,9 @@ function App() {
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/about' component={About} />
+            <Route exact path='/portfolio' component={Portfolio} />
+            <Route exact path='/blog' component={Blog} />
             {/* <Route exact path='/' component={} />
-            <Route exact path='/' component={} />
-            <Route exact path='/' component={} />
             <Route exact path='/' component={} />
             <Route component={NotFound} /> */}
           </Switch>
