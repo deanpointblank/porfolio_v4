@@ -16,6 +16,7 @@ import About from './Containers/About'
 import Portfolio from './Containers/Portfolio'
 import Blog from './Containers/Blog'
 import PortifolioPage from './Containers/PortifolioPage';
+import BlogPage from './Containers/BlogPage';
 
 
 const store = createStore(allReducers, compose(
@@ -33,9 +34,9 @@ function App() {
             <Route exact path='/about' component={About} />
             <Route exact path='/portfolio' component={Portfolio} />
             <Route exact path='/blog' component={Blog} />
-            <Route exact path='/portfolio/:' component={PortifolioPage} />
-            {/* <Route exact path='/' component={} />
-            <Route component={NotFound} /> */}
+            <Route exact path='/portfolio/:project' component={PortifolioPage} />
+            <Route exact path='/blog/:blog' component={BlogPage} />
+            {/* <Route component={NotFound} /> */}
           </Switch>
       </Router>
     </Provider>
