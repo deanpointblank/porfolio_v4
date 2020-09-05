@@ -6,17 +6,16 @@ class Home extends Component{
     render(){
         return(
             <>
-                <Row>
-                    <Col>
-                        <p>Big Picture and blurb here</p>
-                        <p>Hi I'm Dean I'm a FullStack Engineer experienced in Ruby on Rails and JavaScript based programming with a background in React and Sinatra.</p>
+                <Row fluid className="header">
+                    <Col className="d-flex align-items-center">
+                        <h1 className="text-center">Hi I'm Dean I'm a FullStack Engineer experienced in Ruby on Rails and JavaScript based programming with a background in React and Sinatra.</h1>
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
+                    <Col className="mostRecent">
                         <p>Most Recent Project</p>
                     </Col>
-                    <Col>
+                    <Col className="mostRecent">
                         <p>Most Recent Blog</p>
                     </Col>
                 </Row>
