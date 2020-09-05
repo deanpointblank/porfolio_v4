@@ -13,10 +13,14 @@ class Home extends Component{
                 </Row>
                 <Row>
                     <Col className="mostRecent">
-                        <p>Most Recent Project</p>
+                        <h3>Most Recent Project: title</h3>
+                        <p>Image or gif here</p>
+                        <p>Text that begins to fade out or some shit</p>
                     </Col>
                     <Col className="mostRecent">
-                        <p>Most Recent Blog</p>
+                        <h3>Most Recent Blog: title</h3>
+                        <p>Image or gif here</p>
+                        <p>Text that begins to fade out or some shit</p>
                     </Col>
                 </Row>
             </>

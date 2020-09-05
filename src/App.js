@@ -29,6 +29,7 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
+        <Container fluid>
           <Menu />
           <Switch>
             <Route exact path='/' component={Home} />
@@ -39,6 +40,7 @@ function App() {
             <Route exact path='/blog/:blog' component={BlogPage} />
             {/* <Route component={NotFound} /> */}
           </Switch>
+        </Container>
       </Router>
     </Provider>
   );
