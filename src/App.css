@@ -18,3 +18,11 @@
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   transition: box-shadow 0.5s ease-in-out;
 }
+
+/* About */
+
+.aboutSection {
+  height: 40vh;
+}
+
+/* Portfolio */
