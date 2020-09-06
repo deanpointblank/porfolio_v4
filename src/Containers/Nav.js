@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import { GrLinkedin, GrGithub, GrTwitter, GrMail } from 'react-icons/gr'
 
 
 export default class Menu extends Component {
@@ -16,7 +17,7 @@ export default class Menu extends Component {
                         <Nav.Link href="/portfolio">Portfolio</Nav.Link>
                         <Nav.Link href="/blog">Blog</Nav.Link>
                         <Navbar.Text>
-                            <a href="#LinkedIn">LinkedIn</a> <a href="#Twitter">Twitter</a> <a href="#Email">Email</a>
+                        <a className="d-flex-inline mr-2 p-2" href="https://github.com/deanpointblank"><GrGithub /></a> <a className="d-flex-inline mr-2 ml-2" href="https://www.linkedin.com/in/deanbetty/"><GrLinkedin /></a> <a className="d-flex-inline mr-2 ml-2 p-2" href="https://twitter.com/TheDomDonDada"><GrTwitter /></a><a className="d-flex-inline mr-2 ml-2 p-2" href="#Email"><GrMail /></a>
                         </Navbar.Text>
                     </Nav>
                 </Navbar.Collapse>
