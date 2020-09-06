@@ -12,12 +12,12 @@ export default class Menu extends Component {
                 <Navbar.Brand href="/">Dean Betty</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
+                    <Nav className="">
                         <Nav.Link href="/about">About</Nav.Link>
                         <Nav.Link href="/portfolio">Portfolio</Nav.Link>
                         <Nav.Link href="/blog">Blog</Nav.Link>
-                        <Navbar.Text>
-                        <a className="d-flex-inline mr-2 p-2" href="https://github.com/deanpointblank"><GrGithub /></a> <a className="d-flex-inline mr-2 ml-2" href="https://www.linkedin.com/in/deanbetty/"><GrLinkedin /></a> <a className="d-flex-inline mr-2 ml-2 p-2" href="https://twitter.com/TheDomDonDada"><GrTwitter /></a><a className="d-flex-inline mr-2 ml-2 p-2" href="#Email"><GrMail /></a>
+                        <Navbar.Text className="d-flex flex-row">
+                        <a className="mr-2" href="https://github.com/deanpointblank"><GrGithub /></a> <a className="mr-2 ml-2" href="https://www.linkedin.com/in/deanbetty/"><GrLinkedin /></a> <a className="mr-2 ml-2" href="https://twitter.com/TheDomDonDada"><GrTwitter /></a><a className="mr-2 ml-2" href="#Email"><GrMail /></a>
                         </Navbar.Text>
                     </Nav>
                 </Navbar.Collapse>
