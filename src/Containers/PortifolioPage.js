@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Col, Row } from 'react-bootstrap';
+import { Col, Row, Jumbotron, Container, Image } from 'react-bootstrap';
 
 class PortfolioPage extends Component{
     render(){
         return(
             <>
-                <Row>
-                    <h1>Project title</h1>
-                    <p>gif/ video link to project demo</p>
-                    <p>Link to live site</p>
-                </Row>
+                <Jumbotron fluid>
+                    <Container>
+                        <Image src="holder.js/171x180" alt="picture for the blog" rounded />
+                        <h1>Project Title</h1>
+                        <p>gif/ video link to project demo</p>
+                        <p>Link to live site</p>
+                    </Container>
+                </Jumbotron>
                 <Row>
                     <p>text blog about project challenges</p>
                 </Row>
