@@ -18,6 +18,7 @@ import Portfolio from './Containers/Portfolio'
 import Blog from './Containers/Blog'
 import PortifolioPage from './Containers/PortifolioPage';
 import BlogPage from './Containers/BlogPage';
+import NotFound from './Containers/NotFound';
 
 
 const store = createStore(allReducers, compose(
@@ -38,7 +39,7 @@ function App() {
             <Route exact path='/blog' component={Blog} />
             <Route exact path='/portfolio/:project' component={PortifolioPage} />
             <Route exact path='/blog/:blog' component={BlogPage} />
-            {/* <Route component={NotFound} /> */}
+            <Route component={NotFound} />
           </Switch>
         </Container>
       </Router>
