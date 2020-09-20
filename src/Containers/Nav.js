@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Row, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
 import { GrLinkedin, GrGithub, GrTwitter, GrMail } from 'react-icons/gr'
 
 
