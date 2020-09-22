@@ -6,22 +6,22 @@ class Home extends Component{
     render(){
         return(
             <>
-                <Row fluid className="header">
-                    <Col className="d-flex align-items-center">
+                <Row className="header h-100">
+                    <Col className="">
                         <h1 className="text-center">Hi I'm Dean I'm a FullStack Engineer experienced in Ruby on Rails and JavaScript based programming with a background in React and Sinatra.</h1>
                     </Col>
-                </Row>
-                <Row>
-                    <Col className="mostRecent">
+                    <Col>
+                    <Row className="mostRecent">
                         <h3>Most Recent Project: title</h3>
                         <p>Image or gif here</p>
                         <p>Text that begins to fade out or some shit</p>
-                    </Col>
-                    <Col className="mostRecent">
+                    </Row>
+                    <Row className="mostRecent">
                         <h3>Most Recent Blog: title</h3>
                         <p>Image or gif here</p>
                         <p>Text that begins to fade out or some shit</p>
-                    </Col>
+                    </Row>
+                </Col>
                 </Row>
             </>
         )

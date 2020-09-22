@@ -13,17 +13,17 @@ body {
 
 /* Homepage */
 
-.header {
+/* .header {
   background-image: url('./assets/images/headbanner.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
-  font-size: 1em;
-}
+  font-size: 0.5em;
+} */
 
-.mostRecent {
+/* .mostRecent {
   height: 43vh;
-}
+} */
 
 .mostRecent:hover {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
