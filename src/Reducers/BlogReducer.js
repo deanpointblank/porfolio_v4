@@ -22,3 +22,5 @@ const BlogReducer = (state = {blogs: [], loading: false, status: ''}, action) =>
             return state
     }
 }
+
+export default BlogReducer
