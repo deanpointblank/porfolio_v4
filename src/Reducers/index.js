@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
-import falseReducer from './falseReducer'
+import BlogReducer from './BlogReducer';
+import ProjectReducer from './ProjectReducer';
 
 export const allReducers = combineReducers({
-    falseReducer: falseReducer
+    BlogReducer: BlogReducer,
+    ProjectReducer: ProjectReducer
 })
