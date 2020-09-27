@@ -13,6 +13,11 @@ const BlogReducer = (state = {blogs: [], loading: false, status: ''}, action) =>
                 blogs: [action.blogs],
                 loading: false
             }
+        case 'BLOG_ERROR':
+            return {
+                ...state,
+                status: action.status
+            }
         default:
             return state
     }
