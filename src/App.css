@@ -7,9 +7,10 @@ body {
 }
 
 /* Nav */
-/*.bg-light {
-  background-color: white!important;
-}*/
+.bg-light {
+  background-color: transparent!important;
+}
+
 .full-screen {
   position: absolute;
   top: 0;
@@ -20,6 +21,7 @@ body {
   opacity: 1;
   color: white;
   z-index: 1;
+  font-size: 3.5em;
 }
 
 .flex-container-center {
@@ -33,6 +35,18 @@ body {
 
 .hidden {
   display: none;
+}
+
+.nav-close {
+  position: absolute;
+  float: right;
+  /* top: 0; */
+  right: 0;
+  /* bottom: 0;
+  left: 0; */
+  padding-top: 0;
+  padding-right: 2rem;
+  /* text-align: right; */
 }
 
 /* Homepage */
