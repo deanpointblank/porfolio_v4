@@ -22,3 +22,5 @@ const ProjectReducer = (state = {projects: [], loading: false, status: ''}, acti
             return state
     }
 }
+
+export default ProjectReducer
