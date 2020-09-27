@@ -22,7 +22,12 @@ export default class Menu extends Component {
                 // </Navbar.Collapse>
                 // </Navbar>
                 <div className="full-screen flex-container-center">
-                    <h1>Test Content</h1>
+                        <Nav.Link href="/about">About</Nav.Link>
+                        <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+                        <Nav.Link href="/blog">Blog</Nav.Link>
+                        <Navbar.Text >
+                        <a className="mr-2" href="https://github.com/deanpointblank"><GrGithub /></a> <a className="mr-2 ml-2" href="https://www.linkedin.com/in/deanbetty/"><GrLinkedin /></a> <a className="mr-2 ml-2" href="https://twitter.com/TheDomDonDada"><GrTwitter /></a><a className="mr-2 ml-2" href="#Email"><GrMail /></a>
+                        </Navbar.Text>
                 </div>
         )
     }
