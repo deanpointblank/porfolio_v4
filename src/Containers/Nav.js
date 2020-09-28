@@ -21,11 +21,9 @@ export default class Menu extends Component {
     render(){
         return(
             <>
-                <Navbar bg="light" expand="lg" fluid>
+                <Navbar bg="light" expand="lg" fluid className="justify-content-between">
                 <Navbar.Brand href="/">Dean Betty</Navbar.Brand>
-                <Nav className="d-flex flex-row-reverse">
                     <span onClick={event => this.toggleNav(event)}><GrMenu /></span>
-                </Nav>
                 </Navbar>
                 <div className={'full-screen flex-container-center ' + this.state.hidden}>
                     <span className="nav-close" onClick={event => this.toggleNav(event)}>X</span>
