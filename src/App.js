@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Particles from 'react-particles-js';
 import './App.css'
 
 import ReactDom from 'react-dom';
@@ -31,6 +32,19 @@ function App() {
     <Provider store={store}>
       <Router>
         <Container fluid>
+        <Particles className="full-screen position-1"
+          params={{ 
+            particles: { 
+              number: { 
+                value: 200, 
+                density: { 
+                  enable: true, 
+                  value_area: 1000, 
+                } 
+              }, 
+            }, 
+          }} 
+        /> 
           <Menu />
           <Switch>
             <Route exact path='/' component={Home} />

@@ -6,7 +6,7 @@ class Home extends Component{
     render(){
         return(
             <>
-                <Row className="header h-100">
+                <Row className="header h-100" id="particles-js">
                     <Col className="">
                         <h1 className="text-center">
                             Hi I'm Dean I'm a FullStack Engineer experienced in Ruby on Rails and JavaScript based programming with a background in React and Sinatra.
