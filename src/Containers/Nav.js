@@ -23,7 +23,7 @@ export default class Menu extends Component {
             <>
                 <Navbar bg="light" expand="lg" fluid>
                 <Navbar.Brand href="/">Dean Betty</Navbar.Brand>
-                <Nav className="container-fluid justify-content-end">
+                <Nav className="d-flex flex-row-reverse">
                     <span onClick={event => this.toggleNav(event)}><GrMenu /></span>
                 </Nav>
                 </Navbar>
