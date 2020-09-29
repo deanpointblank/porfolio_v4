@@ -1,10 +1,30 @@
 /* General styling */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+/* .full-height {
+  top: 0;
+  bottom: 0;
+} */
+
+/* html, body, #app, #app>div {
+  height: 100%
+} */
+
 body {
   font-family: 'Montserrat', sans-serif;
   /* background-color: black; */
   color: white;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#root {
+  height: inherit;
+}
+
+.container {
+  max-width: 100%;
 }
 
 /* Nav */

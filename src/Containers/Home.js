@@ -6,13 +6,15 @@ class Home extends Component{
     render(){
         return(
             <>
-                <Row className="header h-100" id="particles-js">
-                    <Col className="">
+                <Col fluid>
+                    <Row className="h-100">
+                        <Col className="d-flex align-items-center">
                         <h1 className="text-center">
-                            Hi I'm Dean I'm a FullStack Engineer experienced in Ruby on Rails and JavaScript based programming with a background in React and Sinatra.
+                            Hi I'm Dean I'm a FullStack Engineer experienced in Ruby on Rails and JavaScript based programming.
                         </h1>
-                    </Col>
-                </Row>
+                        </Col>
+                    </Row>
+                </Col>
             </>
         )
     }

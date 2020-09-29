@@ -31,7 +31,7 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
-        <Container fluid>
+        <Container fluid className={'d-flex flex-column h-100'}>
         <Particles className="full-screen position-1"
           params={{
             background: {
