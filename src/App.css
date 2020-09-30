@@ -28,6 +28,10 @@ body {
 }
 
 /* Nav */
+.navbar-light .navbar-brand, .nav a{
+  color: white;
+}
+
 .bg-light {
   background-color: transparent!important;
 }
@@ -70,6 +74,10 @@ body {
   /* text-align: right; */
 }
 
+.selected {
+  text-decoration: underline;
+}
+
 /* Homepage */
 #tsparticles {
   z-index: -1;
@@ -91,16 +99,13 @@ body {
   font-size: 0.5em;
 } */
 
-/* .mostRecent {
-  height: 43vh;
-} */
 
-/*.mostRecent:hover {
+.home-links:hover {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   transition: box-shadow 0.5s ease-in-out;
-} */
+}
 
 /* About */
 
