@@ -1,5 +1,6 @@
 /* General styling */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
 
 /* .full-height {
   top: 0;
@@ -80,10 +81,11 @@ body {
 
 .nav-link {
   font-weight: bolder;
+  font-size: 10vh;
 }
 
 .nav-link:hover{
-  color: black;
+  color: gold;
 } 
 
 /* Homepage */
