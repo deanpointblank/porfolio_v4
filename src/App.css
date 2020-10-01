@@ -79,6 +79,10 @@ body {
   text-decoration: underline;
 }
 
+.navbar, .navbar-brand {
+  font-size: 4vh;
+}
+
 .nav-link {
   font-weight: bolder;
   font-size: 10vh;

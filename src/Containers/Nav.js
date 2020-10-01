@@ -23,7 +23,7 @@ export default class Menu extends Component {
         return(
             <>
                 <Navbar bg="light" expand="lg" fluid className="justify-content-between">
-                <NavLink className="navbar-brand" to="/">Dean Betty</NavLink>
+                <NavLink className="navbar-brand align-items-center" to="/">Dean Betty</NavLink>
                     <span onClick={event => this.toggleNav(event)}><GrMenu /></span>
                 </Navbar>
                 <div className={'full-screen flex-container-center ' + this.state.hidden}>
