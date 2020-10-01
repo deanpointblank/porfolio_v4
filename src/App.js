@@ -20,6 +20,7 @@ import Blog from './Containers/Blog'
 import PortifolioPage from './Containers/PortifolioPage';
 import BlogPage from './Containers/BlogPage';
 import NotFound from './Containers/NotFound';
+import Contact from './Containers/Contact';
 
 
 const store = createStore(allReducers, compose(
