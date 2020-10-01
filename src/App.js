@@ -312,6 +312,7 @@ function App() {
             <Route exact path='/about' component={About} />
             <Route exact path='/portfolio' component={Portfolio} />
             <Route exact path='/blog' component={Blog} />
+            <Route exact path='/contact' component={Blog} />
             <Route exact path='/portfolio/:project' component={PortifolioPage} />
             <Route exact path='/blog/:blog' component={BlogPage} />
             <Route component={NotFound} />
