@@ -308,7 +308,7 @@ function App() {
         /> 
           <Menu />
           <Switch>
-            <Route exact path='/' component={Home} />
+            <Route exact strict path='/' component={Home} />
             <Route exact path='/about' component={About} />
             <Route exact path='/portfolio' component={Portfolio} />
             <Route exact path='/blog' component={Blog} />

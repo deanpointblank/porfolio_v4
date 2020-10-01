@@ -13,7 +13,7 @@ export default class Menu extends Component {
     }
 
     toggleNav(event){
-        event.preventDefault()
+        // event.preventDefault()
         this.setState({
             hidden: this.state.hidden === '' ? 'hidden' : ''
         })
@@ -28,12 +28,12 @@ export default class Menu extends Component {
                 </Navbar>
                 <div className={'full-screen flex-container-center ' + this.state.hidden}>
                     <span className="nav-close" onClick={event => this.toggleNav(event)}>X</span>
-                    <Nav activeKey="/home" className="flex-column">
-                        <NavLink className="nav-link" to="/" activeClassName="selected">Home</NavLink>
-                        <NavLink className="nav-link" to="/about" activeClassName="selected">About</NavLink>
-                        <NavLink className="nav-link" to="/portfolio" activeClassName="selected">Portfolio</NavLink>
-                        <NavLink className="nav-link" to="/blog" activeClassName="selected">Blog</NavLink>
-                        <NavLink className="nav-link" to="#" activeClassName="selected">Contact</NavLink>
+                    <Nav className="flex-column">
+                        <NavLink className="nav-link" exact to="/" activeClassName="selected" onClick={event => this.toggleNav(event)}>Home</NavLink>
+                        <NavLink className="nav-link" to="/about" activeClassName="selected" onClick={event => this.toggleNav(event)}>About</NavLink>
+                        <NavLink className="nav-link" to="/portfolio" activeClassName="selected" onClick={event => this.toggleNav(event)}>Portfolio</NavLink>
+                        <NavLink className="nav-link" to="/blog" activeClassName="selected" onClick={event => this.toggleNav(event)}>Blog</NavLink>
+                        <NavLink className="nav-link" to="/contact" activeClassName="selected" onClick={event => this.toggleNav(event)}>Contact</NavLink>
                         <Navbar.Text >
                         <a className="mr-2" href="https://github.com/deanpointblank"><GrGithub /></a> <a className="mr-2 ml-2" href="https://www.linkedin.com/in/deanbetty/"><GrLinkedin /></a> <a className="mr-2 ml-2" href="https://twitter.com/TheDomDonDada"><GrTwitter /></a><a className="mr-2 ml-2" href="#Email"><GrMail /></a>
                         </Navbar.Text>
