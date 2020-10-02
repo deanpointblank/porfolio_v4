@@ -6,8 +6,8 @@ class About extends Component{
     render(){
         return(
             <>
-                <Col>
-                    <Row className="aboutSection">
+                <Col fluid>
+                    <Row className="h-100 align-items-center d-flex justify-content-center">
                         <p>placement words for now</p>
                     </Row>
                 </Col>
