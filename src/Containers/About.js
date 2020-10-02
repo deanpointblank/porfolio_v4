@@ -15,8 +15,15 @@ class About extends Component{
             <>
                 <Col fluid>
                     <Row className="h-100 align-items-center d-flex justify-content-center">
-                        <div>Play</div>
-                        <div>Work</div>
+                        <div>
+                            <h1>Play</h1>
+                            <h4>Random Facts</h4>
+                        </div>
+                        <div>
+                            <h1>Work</h1>
+                            <h4>timeline</h4>
+                            <p>description of skills</p>
+                        </div>
                     </Row>
                 </Col>
             </>
