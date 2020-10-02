@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { Col, Row, Media } from 'react-bootstrap';
+import { Col, Row} from 'react-bootstrap';
 
 class About extends Component{
     constructor(){
