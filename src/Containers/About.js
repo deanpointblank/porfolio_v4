@@ -3,12 +3,20 @@ import { connect } from 'react-redux';
 import { Col, Row, Media } from 'react-bootstrap';
 
 class About extends Component{
+    constructor(){
+        super()
+        this.state = {
+
+        }
+    }
+
     render(){
         return(
             <>
                 <Col fluid>
                     <Row className="h-100 align-items-center d-flex justify-content-center">
-                        <p>placement words for now</p>
+                        <div>Play</div>
+                        <div>Work</div>
                     </Row>
                 </Col>
             </>
