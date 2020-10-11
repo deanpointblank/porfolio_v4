@@ -12,6 +12,22 @@ export default class Work extends Component{
     render(){
         return(
             <>
+            <Col>
+                <Row>
+
+                </Row>
+                <Row>
+                    
+                </Row>
+            </Col>
+            <Col>
+                <Row>
+
+                </Row>
+                <Row>
+                    
+                </Row>
+            </Col>
 
             </>
         )
