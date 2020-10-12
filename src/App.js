@@ -12,11 +12,13 @@ import thunk from 'redux-thunk';
 import { allReducers } from './Reducers/index';
 import { Container, Row } from 'react-bootstrap';
 
-import Menu from './Containers/Nav'
-import Home from './Containers/Home'
-import About from './Containers/About'
-import Portfolio from './Containers/Portfolio'
-import Blog from './Containers/Blog'
+import Menu from './Containers/Nav';
+import Home from './Containers/Home';
+import About from './Containers/About';
+import Work from './Containers/Work';
+import Play from './Containers/Play';
+import Portfolio from './Containers/Portfolio';
+import Blog from './Containers/Blog';
 import PortifolioPage from './Containers/PortifolioPage';
 import BlogPage from './Containers/BlogPage';
 import NotFound from './Containers/NotFound';
@@ -311,6 +313,8 @@ function App() {
           <Switch>
             <Route exact strict path='/' component={Home} />
             <Route exact path='/about' component={About} />
+            <Route exact path='/about/work' component={Work} />
+            <Route exact path='/about/play' component={Play} />
             <Route exact path='/portfolio' component={Portfolio} />
             <Route exact path='/blog' component={Blog} />
             <Route exact path='/contact' component={Contact} />
