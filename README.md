@@ -67,3 +67,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 # portfolio_v4
+
+This is the code behind the design of my 4th attempt to finish a portfolio. This one is made with react.js and it pulls data from strapi (headless).
