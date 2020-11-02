@@ -11,7 +11,8 @@ export default class Work extends Component{
 
     /*
         break down, of the structure of work page.
-        AA is supposed to be spinning graphic of current skills
+        AA is supposed to be spinning graphic of current skills.
+        AB is supposed to be ???
     */
 
     render(){
