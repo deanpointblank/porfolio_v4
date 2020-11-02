@@ -10,7 +10,8 @@ export default class Work extends Component{
     }
 
     /*
-        break down, of the structure of work page
+        break down, of the structure of work page.
+        AA is supposed to be spinning graphic of current skills
     */
 
     render(){
