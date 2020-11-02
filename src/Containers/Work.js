@@ -10,7 +10,7 @@ export default class Work extends Component{
     }
 
     /*
-        
+        break down, of the structure of work page
     */
 
     render(){
